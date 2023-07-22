@@ -1,0 +1,47 @@
+.menu li {
+    list-style: none;
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-red {
+    background-color: red;
+
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.container {
+    width: 70%;
+    display: inline-block;
+
+}
+
+.head {
+    background-color: rgb(78, 87, 94);
+    width: 80%;
+    display: inline-block;
+}
+
+.top {
+    background-color: cornsilk;
+    width: 20%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.footer {
+    background-color: azure;
+    width: 80%;
+    display: inline-block;
+}

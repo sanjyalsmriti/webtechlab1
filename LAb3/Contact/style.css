@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+}
+
+li {
+    padding: 25px;
+}
+
+a {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    list-style-type: circle;
+    color: maroon;
+    text-decoration: none;
+}
+
+.par {
+    padding: 7rem;
+    font-size: 2rem;
+}
+
+.active {
+    color: red;
+    text-decoration: underline;
+}
+
+body {
+    background: url(https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.jpg);
+}

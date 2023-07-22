@@ -1,0 +1,46 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100%;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+}
+
+.content {
+    background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 40%;
+    text-align: center;
+}
+
+.font-20 {
+    font-weight: 900;
+}
+
+.header {
+    color: chocolate;
+    font-weight: 800px;
+}
+
+.text-white {
+    color: rgb(65, 62, 62);
+    font-size: larger;
+}
+
+.green {
+    color: rgb(58, 110, 38);
+    font-size: larger;
+}
+
+img {
+    width: 498px;
+    margin-bottom: -83px;
+    margin-top: -61px;
+}

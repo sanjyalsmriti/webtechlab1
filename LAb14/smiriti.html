@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smiriti shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <h1>Smiriti Online Shop
+                <br>Form
+            </h1>
+            <form class="p-8">
+                <div class="form-group">
+                    <!-- label vanda mathi ko sab div ma class dinya ani tyo class ma margin
+                border padding dida final  -->
+                    <label for="name">Name:<span>*</span></label>
+                    <input type="text" id="name" name="name" placeholder="please enter name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email: <span>*</span></label>
+                    <input type="email" id="email" name="email" placeholder="Please Enter email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:<span>*</span></label>
+                    <textarea id="message" name="message" placeholder="Please Enter Message"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="male" name="gender" value="male" placeholder="Please Enter gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <span class="checkmark"></span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="colors">Favorite Colors:</label>
+                    <select id="colors" name="colors" placeholder="select">
+                        <option type="Choose your favourite colors" selected="selected">Choose your favourite colors
+                        </option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="agree" name="agree">
+                    <label for="agree">I agree to the terms and conditions</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="register" class="register" value="register">
+                    <input type="clear" class="clear" value="clear">
+                </div>
+        </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* styles.css */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 70px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    padding: 20px;
+    display: flex;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    padding-bottom: 9px;
+}
+
+span {
+    color: red;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 2px;
+    padding: 10px;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.radio-group label {
+    margin-right: 10px;
+}
+
+input[type="register"] {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 48px;
+}
+
+img {
+    width: 80px;
+    padding-left: 121px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    margin-left: 11px;
+}
+
+input[type="register"]:hover {
+    background-color: #45a049;
+}
+
+input[type="clear"] {
+    width: 45px;
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+input[type="clear"]:hover {
+    background-color: rgba(65, 40, 40, 0.359);
+}
+
+#agree {
+    padding-bottom: 30px;
+}

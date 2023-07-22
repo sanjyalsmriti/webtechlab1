@@ -1,0 +1,41 @@
+.img-about {
+    height: 39rem;
+    width: 89rem;
+    background-color: white;
+}
+
+#about {
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 25px;
+}
+
+a {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+}

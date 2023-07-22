@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: chocolate;
+    height: 30%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+
+nav ul li a:hover {
+    background-color: rgb(51, 28, 28);
+}
+
+.container {
+    max-width: 100%;
+    margin: 1rem;
+}
+
+.row {
+    display: flex;
+}
+
+.gallery-img {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.gallery-img img {
+    width: 17rem;
+    padding: 0.1rem;
+    height: 17rem;
+
+}
+
+.heading {
+    text-align: center;
+    font-size: larger;
+}
+
+.heading p {
+    margin: 1rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 138%;
+
+}

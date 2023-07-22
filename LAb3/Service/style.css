@@ -1,0 +1,40 @@
+.img-service {
+    height: 43rem;
+    width: 90rem;
+}
+
+#service {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 25px;
+}
+
+body {
+    background: url(https://img.freepik.com/free-vector/white-technology-background_23-2148390328.jpg);
+}
+
+a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+    text-decoration: underline;
+}
+
+.par {
+    padding: 1rem;
+}

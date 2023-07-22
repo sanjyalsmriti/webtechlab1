@@ -1,0 +1,40 @@
+.break {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 48px;
+}
+
+img {}
+
+.text-center {
+    text-align: center;
+}
+
+.border-none,
+.border-none>td {
+    border: none;
+}
+
+.text-right {
+    text-align: right;
+    b
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.paddinng-inhert {
+    padding: inherit;
+    border: none;
+}
+
+.background-gray {
+    color: white;
+    background-color: gray;
+}
+
+.background-black {
+    background-color: rgb(29, 25, 25);
+    color: white;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background: rgba(65, 0, 0);
+    color: white;
+}
+
+.b {
+    background: grey;
+    padding: 10px;
+}
+
+.a {
+    background: grey;
+    padding: 10px;
+}
+
+.a {
+    background: darkblue;
+    padding: 20px;
+}
+
+.c {
+    background: maroon;
+    float: left;
+    width: 20%;
+    height: 400px;
+}
+
+.d {
+    background: blue;
+    float: left;
+    height: 400px;
+    width: 60%;
+}
+
+.f {
+    background: chocolate;
+    float: right;
+    width: 20%;
+    height: 400px;
+}
+
+.e {
+    background: grey;
+    clear: both;
+    padding: 20px;
+}

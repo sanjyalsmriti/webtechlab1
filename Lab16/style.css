@@ -1,0 +1,86 @@
+img {
+    float: left;
+}
+
+h4 {
+    padding: 20px;
+
+}
+
+.title {
+    background-color: #efefef;
+
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    background-color: grey;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.signup {
+    height: 25px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid#bcbcbc;
+}
+
+span {
+    font-size: 15px;
+    color: #898989;
+    padding: 20px;
+}
+
+.body {
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.sp>p {
+    height: 25px;
+    background-color: #efefef;
+    border-radius: 5px;
+    border: 1px solid#bcbcbc;
+    margin: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.Registration {
+    border: 1px solid#bcbcbc;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+.user>p {
+    background-color: cornflowerblue;
+    color: white;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    width: 5%;
+    height: 30px;
+    margin-left: 25px;
+}
+
+input[type=reset] {
+    width: 5%;
+    height: 30px;
+    margin-left: 25px;
+}
